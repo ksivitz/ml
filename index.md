@@ -5,7 +5,7 @@
 ### Projects
 
 [Reddit Sentiment vs SPY Price](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/stock-stock-image.jpg?raw=true"/>
 
 ---
 [Note and Instrument Identification](/pdf/sample_presentation.pdf)
