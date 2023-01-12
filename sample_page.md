@@ -7,6 +7,7 @@
 I decided to use three different subreddits that contain a common thread: What Are Your Moves Tomorrow? These threads open after the market has closed for the day, and invites discussion of which way the market may move the next day and what are their plans to capitalize on this movement.
 
 The subreddits are:
+
 [WALLSTREETBETS](https://www.reddit.com/r/wallstreetbets/)
 
 [WALLSTREETBETSOGS](https://www.reddit.com/r/wallstreetbetsOGs/)
