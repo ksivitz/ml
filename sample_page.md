@@ -1,6 +1,6 @@
-## This can be your internal website page / project page
+## Reddit Sentiment VS SPY Opening Price
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** There are multiple subreddits focused on short term stock trading and discussing idea on which way the market will move and what factors may contribute to that movement. The porpose of this project is to take three of these subreddits, specifically threads on trading plans for the next business day, and extract the sentiment of these threads to see if it correlates to an up or down movement in the SPY (S&P 500) Price. 
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
