@@ -1,6 +1,8 @@
 ## Reddit Sentiment VS SPY Opening Price
 
-**Project description:** There are multiple subreddits focused on short term stock trading and discussing idea on which way the market will move and what factors may contribute to that movement. The porpose of this project is to take three of these subreddits, specifically threads on trading plans for the next business day, and extract the sentiment of these threads to see if it correlates to an up or down movement in the SPY (S&P 500) Price. 
+### Project description:
+
+There are multiple subreddits focused on short term stock trading and discussing idea on which way the market will move and what factors may contribute to that movement. The porpose of this project is to take three of these subreddits, specifically threads on trading plans for the next business day, and extract the sentiment of these threads to see if it correlates to an up or down movement in the SPY (S&P 500) Price. 
 
 ### 1. The Subreddits
 
