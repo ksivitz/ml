@@ -8,7 +8,7 @@
 <img src="images/stock-stock-image.jpg?raw=true"/>
 
 ---
-[Note and Instrument Identification](/pdf/sample_presentation.pdf)
+[Note and Instrument Identification](/music)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
