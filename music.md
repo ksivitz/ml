@@ -11,11 +11,11 @@ Magenta has created a audio dataset called the [NSynth Dataset](https://magenta.
 ### 2. Assess assumptions on which statistical inference will be based
 
 Using the Librosa python library we can extract a number of useful features from each audio sample such as spectral length, harmonics, croma frequencies, and other unique identifiers of each note and instrument. 
-
+<center>
 <img src="images/guitar_bass_spec.png?raw=true"/>
 
 <img src="images/mallet_keyboard_spec.png?raw=true"/>
-
+</center>
 
 
 
@@ -23,6 +23,12 @@ Using the Librosa python library we can extract a number of useful features from
 ### 3. Support the selection of appropriate statistical tools and techniques
 
 <img src="images/spec_band.png?raw=true"/>
+
+<img src="images/mfcc3_inst.png?raw=true"/>
+
+<img src="images/mfcc8_inst.png?raw=true"/>
+
+<img src="images/pairplot.png?raw=true"/>
 
 ### 4. Provide a basis for further data collection through surveys or experiments
 
