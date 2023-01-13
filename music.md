@@ -22,7 +22,7 @@ Using the Librosa python library we can extract a number of useful features from
 
 ### 3. Support the selection of appropriate statistical tools and techniques
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/spec_band.png?raw=true"/>
 
 ### 4. Provide a basis for further data collection through surveys or experiments
 
