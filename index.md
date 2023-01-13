@@ -9,7 +9,7 @@
 
 ---
 [Note and Instrument Identification](/music)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/ad_square.jpg?raw=true"/>
 
 ---
 [Local Catch vs Weather Data](http://example.com/)
