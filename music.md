@@ -12,6 +12,8 @@ Magenta has created a audio dataset called the [NSynth Dataset](https://magenta.
 
 Using the Librosa python library we can extract a number of useful features from each audio sample such as spectral length, harmonics, croma frequencies, and other unique identifiers of each note and instrument. 
 
+<img src="images/guitar_spectrogram.png?raw=true"/>
+
 
 
 
