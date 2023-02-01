@@ -28,6 +28,8 @@ However, each customer tends to spend roughly the same amount of money, regardle
 
 <img src="images/purch_avg_age.jpg?raw=true"/>
 
+
+
 Another factor we can explore is occupation. The data has been split into 20 different job types, and it is clear from the following graph that what type of job a person has greatly effects the purchasing amount spent on Black Friday.
 
 <img src="images/purch_occ.jpg?raw=true"/>
@@ -36,7 +38,7 @@ We can also see from the following pie chart that the largest share of purchases
 
 <img src="images/Pie_city.jpg?raw=true"/>
 
-
+<img src="images/prod_purch.jpg?raw=true"/>
 
 ### 2. Assess assumptions on which statistical inference will be based
 
