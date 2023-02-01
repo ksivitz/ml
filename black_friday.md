@@ -8,7 +8,14 @@ The purpose of this project is to analyize customer data from Black Friday purch
 
 The dataset provided by the company contains several useful columns with information about their customers such as: Age, Gender, Marital Status, the type of city they live in, how long they have been there, as well as what products they purchased and their cost. Using this data we can begin to determine what kind of corrolation we have between the various features and their relationship to the customers purchases.
 
-The first thing we will look at is our purchases. The following distribution plot shows that purchase amounts range from 0 to $25000, with the average spent skewing towards $5000 - $10000. 
+The first thing we will look at is our purchases. The following distribution plot shows that purchase amounts range from 0 to $25000, with the average spent skewing towards $5000 - $10000.
+
+<img src="images/purch_dist.jpg?raw=true"/>
+
+<img src="images/dist_prod.jpg?raw=true"/>
+
+
+
 
 As you can see from these first two graphs that the majority of our purchases come from customers between the ages of 18-45, with age range 26-35 being our largest customer base. 
 
