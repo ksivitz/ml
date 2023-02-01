@@ -4,7 +4,7 @@
 
 ### Projects
 
-[Reddit Sentiment vs SPY Price](/sample_page)
+[Black Friday Sales](/black_friday)
 <img src="images/stock-stock-image.jpg?raw=true"/>
 
 ---
