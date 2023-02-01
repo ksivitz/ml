@@ -13,7 +13,7 @@ As you can see from these first two graphs that the majority of our purchases co
 <img src="images/purch_age.jpg?raw=true"/>
 
 
-<img src='images/top5age.jpg?raw=true"/>
+<img src="images/top5age.jpg?raw=true"/>
 
 However, each customer tends to spend roughly the same amount of money, regardless of their age range.  
 
