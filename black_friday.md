@@ -8,13 +8,25 @@ The purpose of this project is to analyize customer data from Black Friday purch
 
 The dataset provided by the company contains several useful columns with information about their customers such as: Age, Gender, Marital Status, the type of city they live in, how long they have been there, as well as what products they purchased and their cost. Using this data we can begin to determine what kind of corrolation we have between the various features and their relationship to the customers purchases.
 
-As you can see from this first graph, the majority of customers fall between the age of 17-43 or whatever. so thats interesting.
+As you can see from these first two graphs that the majority of our purchases come from customers between the ages of 18-45, with age range 26-35 being our largest customer base. 
 
 <img src="images/purch_age.jpg?raw=true"/>
 
-as far as average price goes, each age group spends about the same amount of dough on products. 
+
+<img src='images/top5age.jpg?raw=true"/>
+
+However, each customer tends to spend roughly the same amount of money, regardless of their age range.  
 
 <img src="images/purch_avg_age.jpg?raw=true"/>
+
+Another factor we can explore is occupation. The data has been split into 20 different job types, and it is clear from the following graph that what type of job a person has greatly effects the purchasing amount spent on Black Friday.
+
+<img src="images/purch_occ.jpg?raw=true"/>
+
+We can also see from the following pie chart that the largest share of purchases come from customers living in city type B, with only a quarter of purchases coming from customers in city type A.
+
+<img src="images/Pie_city.jpg?raw=true"/>
+
 
 
 ### 2. Assess assumptions on which statistical inference will be based
