@@ -8,8 +8,11 @@ The purpose of this project is to analyize customer data from Black Friday purch
 
 The dataset provided by the company contains several useful columns with information about their customers such as: Age, Gender, Marital Status, the type of city they live in, how long they have been there, as well as what products they purchased and their cost. Using this data we can begin to determine what kind of corrolation we have between the various features and their relationship to the customers purchases.
 
+As you can see from this first graph, the majority of customers fall between the age of 17-43 or whatever. so thats interesting.
+
 <img src="images/purch_age.jpg?raw=true"/>
 
+as far as average price goes, each age group spends about the same amount of dough on products. 
 
 <img src="images/purch_avg_age.jpg?raw=true"/>
 
