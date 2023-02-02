@@ -1,10 +1,10 @@
-## Reddit Sentiment VS SPY Opening Price
+## Reddit Sentiment VS Apple Closing Price
 
 ### Project description:
 
-There are multiple subreddits focused on short term stock trading and discussing idea on which way the market will move and what factors may contribute to that movement. The porpose of this project is to take three of these subreddits, specifically threads on trading plans for the next business day, and extract the sentiment of these threads to see if it correlates to an up or down movement in the SPY (S&P 500) Price. 
+Fr this project the goal was to scrape reddit for mentions of the stock ticker for APPLE (APPL) and create a sentiment score for each comment. The hope is to use this score combined with some price movement information to predict wether the closing price of Apple will be higher or lower than the closing price of the previous day. 
 
-### 1. The Subreddits
+### 1. The Data
 
 I decided to use three different subreddits that contain a common thread: What Are Your Moves Tomorrow? These threads open after the market has closed for the day, and invites discussion of which way the market may move the next day and what are their plans to capitalize on this movement.
 
