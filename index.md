@@ -12,7 +12,7 @@
 <img src="images/ad-square.jpg?raw=true"/>
 
 ---
-[Sentiment scores](/sentiment.ipynp)
+[Sentimen](/sent.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
