@@ -12,7 +12,7 @@
 <img src="images/ad-square.jpg?raw=true"/>
 
 ---
-[Local Catch vs Weather Data](http://example.com/)
+[Sentiment scores](/Apple Sentiment Final)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
