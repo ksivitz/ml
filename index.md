@@ -12,7 +12,7 @@
 <img src="images/ad-square.jpg?raw=true"/>
 
 ---
-[Sentiment scores](/Apple Sentiment Final)
+[Sentiment scores](/Apple Sentiment Final.ipynp)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
