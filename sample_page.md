@@ -2,36 +2,44 @@
 
 ### Project description:
 
-Fr this project the goal was to scrape reddit for mentions of the stock ticker for APPLE (APPL) and create a sentiment score for each comment. The hope is to use this score combined with some price movement information to predict wether the closing price of Apple will be higher or lower than the closing price of the previous day. 
+The purpose of this project is to determine if reddit sentiment of a stock can be used to predict whether the closing price of the ticker will be higher or lower than the closing price of the previous day. There are many different subreddits dedicated to the stock market, each with different trading styles and philosophies. The goal is to visit a variety of these subreddits, collect comments that mention the apple ticker (APPL), and see if the combined sentiment of these comments is correlated to the next days closing price. 
 
 ### 1. The Data
 
-I decided to use three different subreddits that contain a common thread: What Are Your Moves Tomorrow? These threads open after the market has closed for the day, and invites discussion of which way the market may move the next day and what are their plans to capitalize on this movement.
+For this project I will be using a dataset collected by SocialGrep containing comments with mentions of APPL from 10/31/2016 - 10/31/2021. Each row in this dataset contains a UTC Timestamp, the comment text, the subreddit the comment came from, as well as a few other features. Our main focus from this dataset will be the timestamp and the comment text. 
 
-The subreddits are:
+The first step in preparing this data is to get a sentiment score for each comment. Once each comment was tokenized and lemmantized, I used SIA to create a polarity score for each word and combined these scores to recieve a final sentiment score for each comment. Once the scores were tallied, I grouped the dataset by date and combined each comment sentiment score for the day to get a combined sentiment score for each trading day. 
 
-[WALLSTREETBETS](https://www.reddit.com/r/wallstreetbets/)
+<img src="sent.jpg?raw=true"/>
 
-[WALLSTREETBETSOGS](https://www.reddit.com/r/wallstreetbetsOGs/)
+Once we have our sentiment scores, the next step is to collect price data for APPL during our comment period. This data was downloaded from Yahoo Finance and contains open, close, high, low, and volume price for each day in our time period. After uploading the data to our workbook, I merged this data with our sentiment data and calculated the difference between today' and tomorrows closing price. Once this difference was calulated, I created a Class label for each date, where 1 represents a raise in stock price and 0 represents a lowering of the stock price. 
 
-[WALLSTREETBETSHUZZAH](https://www.reddit.com/r/wallstreetbetsHUZZAH/)
+<img src="merged.jpg?raw=true"/>
 
-The first is Wall Street Bets, a popular subreddit that focuses on short term gains through options trading, and made famous during the [gamestop fiasco](https://www.esquire.com/lifestyle/money/a36395893/wallstreetbets-investment-fortunes-gamestop-inside-story/) of early 2021. After this event made wall street bets a household name in the trading community, new users flooded to the subreddit in an attempt to profit off the 'not financial advice' of the members resposible for the rise of GME. This prompted some of the original members to abandon ship and start new communites, giving us our next two subreddits, Wall Street Bets OGs and Wall Street Bets Huzzah.
-
-These three communities should offer us a few different sentiments on the movement of the markets based on their varyingsize,  years of experience, and knowledge of the markets. 
 
 ### 2. Assess assumptions on which statistical inference will be based
 
-The first step of this project is to collect sentiment data from these subreddits. This involved scraping the comments from each daily 'What Are Your Moves Tomorrow' post, cleaning and tokenizing the comments, removing stop words, and then using VADER to retrive a sentiment score for each day. 
+Now that the data has been organized and collected, it is time to see what correlation there is between these sentiment scores and the stock price. For the first model we will be using only the sentiment score vs the change in closing price. I chose K Nearest Neighbors for this model, and collected the test error rate for k's 1-20 to determine the best number of neighbors to use for this data. As you can see, 5 appears to be the k value with the lowest error rate, so I set k=5 and tested the model against our data. 
 
-Once I had a daily sentiment score for each subreddit, I collected Opening and Closing stock prices for the S&P 500 ETF 'SPY', took the difference between todays closing price and tomorrows opening price, and assinged a Class value of 1 for a raise in price, and a 0 for a lowering or same opening price. 
+<img src="error_rate.jpg?raw=true"/>
 
-### 3. Support the selection of appropriate statistical tools and techniques
+Using only the sentiment score, we get an overall accuracy of 54%. For trading, the most useful score would be the recall score of our 1 label, since the goal is to buy when there is a predicted raise in the stocks price. Here we have a score of 55%, which is just above average and not very useful on its own.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="k_sent_only.jpg?raw=true"/>
+<img src="plot_sent.jpg?raw=true"/>
 
-### 4. Provide a basis for further data collection through surveys or experiments
+The next step would be to try combining these sentiment scores with other features available in our dataset to see if we can come up with a higher recall rate. To do this I added in the daily volume, as well as the opening price of the stock for the next trading day. Using K Nearest Neighbors with a k value of 30, I was able to raise the recall score for our 1 predicition to 65%. This is a much more useful score, however it requires you to wait untill opening of the next day to place any trades, limiting potential profits. 
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+<img src="error_rate_all.jpg?raw=true"/>
+<img src="class_report_all.jpg?raw=true"/>
+<img src="plot_all_appl.jpg?raw=true"/>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Finally, I tried predicting the class using a Random Forest to see if there was an increase in accuracy.  By doing a grid search for the best parameters for our data, I ran a Random Forest algorithm with a max depth of 6 and set the number of estimators to 10. This lead to a recall score of 63% for our 1 label, slightly worse than that of K Nearest Neighbors.
+
+<img src="class_report_forest_friday.jpg?raw=true"/>
+
+In conclusion, although reddit sentiment does have a slightly better than 50% predicition rate on the movement of APPLE stock, it may be best to look for a different source for stock market trading advice. 
+
+Below is the notebook containing the full workup of this project
+
+[Reddit Sentiment vs Apple Price Notebook](/sent.html)
