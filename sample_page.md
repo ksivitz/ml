@@ -12,12 +12,20 @@ The first step in preparing this data is to get a sentiment score for each comme
 
 <img src="sent.jpg?raw=true"/>
 
-Once we have our sentiment scores, the next step is to collect price data for APPL during our comment period. This data was downloaded from Yahoo Finance and contains open, close, high, low, and volume price for each day in our time period. After uploading the data to our workbook, I merged this data with our sentiment data and calculated the difference between today' and tomorrows closing price. Once this difference was calulated, I created a Class label for each date, where 1 represents a raise in stock price and 0 represents a lowering of the stock price. 
+Looking at the combined scores vs the top 5 subreddits these comments were scraped from, we can see certain communities are much more optamistic than others, with the options trading subreddit WallStreetBets having the highest combined sentiment score. 
+
+<img src="top5sent.jpg?raw=true"/>
+
+Now that we have our sentiment scores, the next step is to collect price data for APPL during our comment period. This data was downloaded from Yahoo Finance and contains open, close, high, low, and volume price for each day in our time period. After uploading the data to our workbook, I merged this data with our sentiment data and calculated the difference between today' and tomorrows closing price. Once this difference was calulated, I created a Class label for each date, where 1 represents a raise in stock price and 0 represents a lowering of the stock price. 
 
 <img src="merged.jpg?raw=true"/>
 
+As we can see from the following scatterplot, there is a clear correlation between the opening price difference and class, while the sentiment score looks fairly even across each value when compared to the class label. 
 
-### 2. Assess assumptions on which statistical inference will be based
+<img src="sent_open.jpg?raw=True"/>
+
+
+### 2. Predictions
 
 Now that the data has been organized and collected, it is time to see what correlation there is between these sentiment scores and the stock price. For the first model we will be using only the sentiment score vs the change in closing price. I chose K Nearest Neighbors for this model, and collected the test error rate for k's 1-20 to determine the best number of neighbors to use for this data. As you can see, 5 appears to be the k value with the lowest error rate, so I set k=5 and tested the model against our data. 
 
