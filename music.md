@@ -58,6 +58,8 @@ Now that we are able to predict the note and instrument of an audio file, we can
 
 <>
 
-The notebook
+
+
+Below is the notebook containing the full workup of this project
 
 [Note and Instrument Classification](/note_class.html)
