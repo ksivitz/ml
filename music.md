@@ -53,8 +53,10 @@ The last model I tried for instrument classification was a Random Forest Classif
 
 Next, we will look at models for note classification. Because we are using the same features to classify notes that we used for instruments, I decided that the Random Forest model was the best place to start. Using the default parameters, Random Forest gave us an accuracy score of 92%, with the lowest scores coming from notes on the extreme low and high ends of the spectrum. By doing a grid search, I found the hyperparameters that best fit our data are a max depth of 25 and a number of estimators set to 150. These parameters give us a accuracy of 93%. 
 
+# Random Forest with Default Values
 <img src="images/rand_note_default.JPG?raw=true"/>
 
+# Random Forest: Max Depth 25, N Estimators 150
 <img src="images/rand_note_param.JPG?raw=true"/>
 
 Now that we are able to predict the note and instrument of an audio file, we can use this information to plot notes on a staff to create sheet music from our audio samples. I created a simple plot to showcase one of the uses of our alogrithm, with the lines representing lines of a sheet music staff. Combined with a note seperating algorithm and a bit of front end design, these models could be very useful in creating sheet music for a variety of songs and instruments!
