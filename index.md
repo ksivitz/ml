@@ -12,7 +12,7 @@
 <img src="images/ad-square.jpg?raw=true"/>
 
 ---
-[Sentimen](/sent.html)
+[Reddit Sentiment vs Apple Stock Price](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
