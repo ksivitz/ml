@@ -40,23 +40,26 @@ The following pairplot shows how a number of these features relate to each other
 
 Now that we have prepared and examined our data, it is time to create some models. The first set of models will be used to create predictions for the instrument being played in the clips. I started with a Logistic Regression model, with a C value of 60 and L1 penalty as our hyperparameters selected using a grid search. Using this model I was able to recieve an accuracy score of 81%, with the best scores coming from vocals and clips from reed instruments. 
 
-<img src="">
+<img src="images/log_class_music.JPG?raw=true"/>
 
 The next model I tried was K Nearest Neighbors. by graphing the error rates for various k values, I was able to determine that error rates increased immediately when more neighbors were considered, and the best value was with k = 1. This lead to a model with an accuracy score of 98%. Although this is a much better score than our Logistic model, a value of k=1 may lead to overfitting, so I decided to see if I could repeat these scores with another method.
 
-<img src = "">
+<img src = "images/k_val_inst.jpg?raw=true"/>
+<img src="images/class_k_inst.JPG?raw=true"/>
 
 The last model I tried for instrument classification was a Random Forest Classification model. Using the default parameters, I was able to get an accuracy score of 100%, with only 3 of the 1800 test samples being misclassified. 
 
-<>
+<img src="images/class_rand_inst.JPG?raw=true"/>
 
 Next, we will look at models for note classification. Because we are using the same features to classify notes that we used for instruments, I decided that the Random Forest model was the best place to start. Using the default parameters, Random Forest gave us an accuracy score of 92%, with the lowest scores coming from notes on the extreme low and high ends of the spectrum. By doing a grid search, I found the hyperparameters that best fit our data are a max depth of 25 and a number of estimators set to 150. These parameters give us a accuracy of 93%. 
 
-<>
+<img src="images/rand_note_default.JPG?raw=true"/>
+
+<img src="images/rand_note_param.JPG?raw=true"/>
 
 Now that we are able to predict the note and instrument of an audio file, we can use this information to plot notes on a staff to create sheet music from our audio samples. I created a simple plot to showcase one of the uses of our alogrithm, with the lines representing lines of a sheet music staff. Combined with a note seperating algorithm and a bit of front end design, these models could be very useful in creating sheet music for a variety of songs and instruments!
 
-<>
+<img src="images/staff.jpg?raw=true"/>
 
 
 
