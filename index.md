@@ -1,11 +1,7 @@
-## Portfolio
+## Portfolio Projects
 
 ---
 
-### Projects
-
-
----
 [<center>Instrument and Pitch Classification</center>](/music)
 <br>
 [<img src="images/guitar_piano_cropped.jpg?raw=true"/>](/music)
