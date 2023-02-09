@@ -4,18 +4,18 @@
 
 ### Projects
 
-[Black Friday Sales](/black_friday)
-<img src="images/stock-stock-image.jpg?raw=true"/>
 
 ---
 [Note and Instrument Identification](/music)
-<img src="images/ad-square.jpg?raw=true"/>
+<a herf = "/music"><img src="images/guitar_piano_cropped.jpg?raw=true"/></a>
 
 ---
 [Reddit Sentiment vs Apple Stock Price](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="stock_photo_cropped.jpg?raw=true"/>
 
 ---
+[Black Friday Sales](/black_friday)
+<img src="images/stock-stock-image.jpg?raw=true"/>
 
 
 
