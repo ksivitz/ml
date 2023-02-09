@@ -3,7 +3,7 @@ logo: "/images/IMG_2190.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   I am a student of the mathematical vibes looking to dive head first into a career of data science and machine learning. Can you dig it?
   <br>
-   <a herf="https://github.com/ksivitz/ksivitz.github.io/Resume-ML.pdf">Download Resume</a>
+   <a herf="https://github.com/ksivitz/ksivitz.github.io/main/Resume-ML.pdf">Download Resume</a>
    
   
 theme: jekyll-theme-minimal
