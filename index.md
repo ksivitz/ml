@@ -6,7 +6,7 @@
 
 
 ---
-[Note and Instrument Identification](/music)
+[<center>Note and Instrument Identification</center>](/music)
 [<img src="images/guitar_piano_cropped.jpg?raw=true"/>](/music)
 
 ---
