@@ -17,7 +17,8 @@
 
 ---
 [<center>Black Friday Sales Predictions</center>](/black_friday)
-[<img src="images/stock-stock-image.jpg?raw=true"/>](/black_friday)
+<br>
+[<img src="images/black_friday_cropped.jpg?raw=true"/>](/black_friday)
 
 
 
