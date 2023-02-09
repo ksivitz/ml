@@ -11,7 +11,7 @@
 
 ---
 [Reddit Sentiment vs Apple Stock Price](/sample_page)
-<img src="stock_photo_cropped.jpg?raw=true"/>
+<img src="stock_better_cropped.jpg?raw=true"/>
 
 ---
 [Black Friday Sales](/black_friday)
