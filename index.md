@@ -6,8 +6,8 @@
 
 
 ---
-[Note and Instrument Identification](/music)
-<a herf = "/music"><img src="images/guitar_piano_cropped.jpg?raw=true"/></a>
+<center>[Note and Instrument Identification](/music)</center>
+[<img src="images/guitar_piano_cropped.jpg?raw=true"/>](/music)
 
 ---
 [Reddit Sentiment vs Apple Stock Price](/sample_page)
