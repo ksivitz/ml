@@ -42,7 +42,9 @@ We can also see from the following pie chart that the largest share of purchases
 
 ### 2. Assess assumptions on which statistical inference will be based
 
+Now that we have explored our data, it is time to start prediciting. Because we have a mix of both numerical and classifcation features, I have decided that a Random Forest Regession model is the best model to use in predicting customer purchasing habits. Using this model we can get a prediciton score of 68%, with a root mean squared error of $2,828. 
 
+<img src="images/rand_test_friday.JPG?raw=True"/>
 
 Below is the notebook containing the full workup of this project
 
