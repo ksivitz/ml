@@ -43,6 +43,7 @@ We can also see from the following pie chart that the largest share of purchases
 ### 2. Assess assumptions on which statistical inference will be based
 
 
+
 Below is the notebook containing the full workup of this project
 
-[Black Friday Purchase Predictions](https://guides.github.com/features/mastering-markdown/).
+[Black Friday Purchase Predictions](/black_friday_notebook.html).
