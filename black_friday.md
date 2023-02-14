@@ -46,4 +46,4 @@ We can also see from the following pie chart that the largest share of purchases
 
 Below is the notebook containing the full workup of this project
 
-[Black Friday Purchase Predictions](/black_friday_notebook.html).
+[Black Friday Purchase Predictions](/black_friday_notebook).
