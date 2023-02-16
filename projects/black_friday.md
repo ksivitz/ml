@@ -12,7 +12,7 @@ The first thing we will look at is our purchases. The following distribution plo
 
 <img src="https://github.com/ksivitz/ksivitz.github.io/blob/ebc75764e30570dd709c10f43f48623710aaac96/images/IMG_2190.jpg?raw=true"/>
 
-<img src="images/dist_prod.jpg?raw=true"/>
+<img src="https://github.com/ksivitz/ksivitz.github.io/blob/ebc75764e30570dd709c10f43f48623710aaac96/images/dist_prod.jpg?raw=true"/>
 
 
 
