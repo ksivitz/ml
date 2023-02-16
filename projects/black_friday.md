@@ -48,4 +48,4 @@ Now that we have explored our data, it is time to start predicting. Because we h
 
 Below is the notebook containing the full workup of this project
 
-[Black Friday Purchase Predictions](/notebooks/black_friday_notebook).
+[Black Friday Purchase Predictions](notebooks/black_friday_notebook.html).
