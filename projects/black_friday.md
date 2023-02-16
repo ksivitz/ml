@@ -10,7 +10,7 @@ The dataset provided by the company contains several useful columns with informa
 
 The first thing we will look at is our purchases. The following distribution plot shows that purchase amounts range from 0 to $25000, with the average spent skewing towards $5000 - $10000.
 
-<img src="https://github.com/ksivitz/ksivitz.github.io/blob/ebc75764e30570dd709c10f43f48623710aaac96/images/dist_purch.jpg?raw=true"/>
+<img src="https://github.com/ksivitz/ksivitz.github.io/blob/ebc75764e30570dd709c10f43f48623710aaac96/images/purch_dist.jpg?raw=true"/>
 
 <img src="https://github.com/ksivitz/ksivitz.github.io/blob/ebc75764e30570dd709c10f43f48623710aaac96/images/dist_prod.jpg?raw=true"/>
 
@@ -48,4 +48,4 @@ Now that we have explored our data, it is time to start predicting. Because we h
 
 Below is the notebook containing the full workup of this project
 
-[Black Friday Purchase Predictions](projects/black_friday_notebook).
+[Black Friday Purchase Predictions](notebooks/black_friday_notebook).
