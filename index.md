@@ -1,7 +1,7 @@
 ## Portfolio Projects
 
 ---
-[resume](/Resume-ML.pdf)
+
 [<center>Instrument and Pitch Classification</center>](/music)
 <br>
 [<img src="images/guitar_piano_cropped.jpg?raw=true"/>](/music)
