@@ -46,7 +46,7 @@ Now that we have explored our data, it is time to start predicting. Because we h
 
 <img src="https://github.com/ksivitz/ksivitz.github.io/blob/ebc75764e30570dd709c10f43f48623710aaac96/images/rand_test_friday.JPG?raw=True"/>
 
-Using this information, the company can determine which customers are most likely to make large black friday purchases, and create personalized promotions to draw these customers to their stores.
+Using this information, the company can determine which customers are most likely to make large black friday purchases, and create personalized promotions to draw these customers to their stores. 
 
 
 Below is the notebook containing the full workup of this project
