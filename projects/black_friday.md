@@ -48,4 +48,4 @@ Now that we have explored our data, it is time to start predicting. Because we h
 
 Below is the notebook containing the full workup of this project
 
-[Black Friday Purchase Predictions](https://github.com/ksivitz/ksivitz.github.io/blob/d1075aee9271ff025509e71e23eaaeecec26ed0d/notebooks/black_friday_notebook.html).
+[Black Friday Purchase Predictions](notebooks/black_friday_notebook.html).
