@@ -28,7 +28,7 @@ Other features we can extract using Librosa are spectral values such as bandwidt
 
 As for pitch classification, we can look at how the zero-crossing rate for our different samples relates to the spectral centroids, and then use Seaborn’s hue feature to show where the various pitches fall on this scatterplot. As you can see, lower values of the spectral centroid and zero-crossing rates relate to lower pitches, while high values tend to be related to higher pitched notes. 
 
-<img src="https://github.com/ksivitz/ksivitz.github.io/blob/ebc75764e30570dd709c10f43f48623710aaac96/images/zero_cross.jpg?raw=true"/>
+<img src="https://github.com/ksivitz/ksivitz.github.io/blob/ebc75764e30570dd709c10f43f48623710aaac96/images/cent_zero_cross_scatter.png?raw=true"/>
 
 The following pairplot shows how a number of these features relate to each other as well as how the pitch of each audio clip relates to the various audio features. There appears to be a fair amount of grouping between similar pitch values, suggesting a prediction model may be fairly accurate at determining note values given the provided features. 
 
